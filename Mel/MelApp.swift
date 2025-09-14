@@ -12,6 +12,7 @@ struct MelApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light) // Force le mode clair pour une meilleure cohérence
         }
     }
 }
